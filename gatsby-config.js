@@ -16,7 +16,7 @@ module.exports = {
       alt: '',
     },
     logoText: 'ちょこっと珈琲',
-    defaultTheme: 'dark',
+    defaultTheme: 'light',
     postsPerPage: 5,
     showMenuItems: 2,
     menuMoreText: 'Show more',
@@ -114,8 +114,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-hello-friend`,
-        short_name: `hello-friend`,
+        name: `ちょこっと珈琲`,
+        short_name: `ちょ珈`,
         start_url: `/`,
         background_color: `#292a2d`,
         theme_color: `#292a2d`,
