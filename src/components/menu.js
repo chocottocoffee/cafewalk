@@ -54,7 +54,6 @@ const Menu = ({
   isSubMenuVisible,
   onToggleMobileMenu,
   onToggleSubMenu,
-  onChangeTheme,
 }) => {
   const isSubMenu = !(mainMenuItems >= mainMenu.length) && mainMenuItems > 0
 
@@ -113,14 +112,6 @@ const Menu = ({
           ) : null}
         </ul>
       </div>
-      <button
-        className={style.themeToggle}
-        onClick={onChangeTheme}
-        type="button"
-        aria-label="Theme toggle"
-      >
-        <Icon style={{ cursor: 'pointer' }} size={24} d={toggleIcon} />
-      </button>
     </>
   )
 }
